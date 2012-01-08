@@ -117,6 +117,7 @@ useLibrtmp=os.path.exists(xbmc.translatePath('special://xbmc/system/players/dvdp
 
 ######################################################################
 #program version: Combination of version and subversion
+######################################################################
 Version='3' 
 SubVersion='7.2'
 

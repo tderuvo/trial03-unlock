@@ -188,7 +188,7 @@ class MainWindow(xbmcgui.WindowXML):
                 if platform == 'xbox':
                     pos = 4
                 else:
-                    pos = 5
+                    pos = 4
                 self.list3.getListItem(pos).setLabel("Sign out")
                 self.version.setLabel('version: '+ Version + '.' + SubVersion + " (signed in)")
                                   
