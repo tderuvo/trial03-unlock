@@ -212,13 +212,13 @@ class CBackgroundLoader(threading.Thread):
     # Parameters : -
     # Return     : -
     ######################################################################        
-    def DisplayMediaSource(self, pos):
-        str_url=self.MainWindow.pl_focus.list[pos].URL
-        str_server_report=""
-        if str_url != "" and self.MainWindow.pl_focus.list[pos].type != "playlist":
-            match=re_server.search(str_url)
-            if match:
-                str_server_report= match.group(1)
-                if self.MainWindow.pl_focus.list[pos].processor != "":
-                    str_server_report = str_server_report + "+"
-        SetInfoText(str_server_report)     
+    #def DisplayMediaSource(self, pos):
+    #    str_url=self.MainWindow.pl_focus.list[pos].URL
+    #    str_server_report=""
+    #    if str_url != "" and self.MainWindow.pl_focus.list[pos].type != "playlist":
+    #        match=re_server.search(str_url)
+    #        if match:
+    #            str_server_report= match.group(1)
+    #            if self.MainWindow.pl_focus.list[pos].processor != "":
+    #                str_server_report = str_server_report + "+"
+    #    SetInfoText(str_server_report)     
