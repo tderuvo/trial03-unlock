@@ -188,7 +188,7 @@ class MainWindow(xbmcgui.WindowXML):
                 if platform == 'xbox':
                     pos = 4
                 else:
-                    pos = 4
+                    pos = 5
                 self.list3.getListItem(pos).setLabel("Sign out")
                 self.version.setLabel('version: '+ Version + '.' + SubVersion + " (signed in)")
                                   
@@ -470,7 +470,7 @@ class MainWindow(xbmcgui.WindowXML):
                         str_server_report="Source: " + match.group(1)
                         if self.pl_focus.list[pos].processor != "":
                             str_server_report = str_server_report + "+"
-                SetInfoText(str_server_report)                                                  
+                #SetInfoText(str_server_report)                                                  
     
         ######################################################################
         # Description: Checks if one of the context menu keys is pressed.
