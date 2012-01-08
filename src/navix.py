@@ -2141,7 +2141,6 @@ class MainWindow(xbmcgui.WindowXML):
                                     "Create Playlist Shortcut", \
                                     "Set Playlist as Home", \
                                     "View Playlist Source", \
-                                    "About Navi-X", \
                                     "Cancel"]
                 dialog = xbmcgui.Dialog()
                 choice = dialog.select("Options", possibleChoices)
